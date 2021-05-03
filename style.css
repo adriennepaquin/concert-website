@@ -1,3 +1,77 @@
 body {
     background: lightslategray;
 }
+#title-image {
+    max-width: 100%;
+    height: auto;
+    padding: 0px;
+}
+header {
+    position: relative;
+}
+h2 {
+    font-size: 3vw;
+    text-align: center;
+    color: black;
+    font-family: 'Satisfy', cursive;
+}
+h3 {
+    font-size: 2vw;
+    text-align: center;
+    color:black;
+    font-family: 'Satisfy', cursive;
+}
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 3em;
+    font-size: 5vw;
+    color: white;
+    font-family: 'Satisfy', cursive;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: slategray;
+    color: white;
+}
+
+ul.topnav li a.active {background-color: slategray;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+#homepage-para {
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+}
+div {
+    float: left;
+    padding: 2em;
+}
+#leftside {
+    max-width: 70%;
+}
+#rightside {
+    max-width: 30%;
+    text-align: left;
+}
