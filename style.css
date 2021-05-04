@@ -1,7 +1,7 @@
 body {
     background: lightslategray;
 }
-#title-image {
+#header-photo {
     max-width: 100%;
     height: auto;
     padding: 0px;
@@ -12,16 +12,16 @@ header {
 h2 {
     font-size: 3vw;
     text-align: center;
-    color: black;
+    color: white;
     font-family: 'Satisfy', cursive;
 }
 h3 {
     font-size: 2vw;
     text-align: center;
-    color:black;
+    color:white;
     font-family: 'Satisfy', cursive;
 }
-.bottomleft {
+.bottom-left {
     position: absolute;
     bottom: 8px;
     left: 3em;
@@ -44,7 +44,7 @@ ul.topnav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Antonio', sans-serif;
 }
 
 ul.topnav li a:hover:not(.active) {
@@ -61,20 +61,34 @@ ul.topnav li.right {float: right;}
     ul.topnav li {float: none;}
 }
 #homepage-para {
-    font-family: 'Satisfy', cursive;
+    font-family: 'Antonio', sans-serif;
     text-align: left;
-    color: white;
+    color: black;
     font-size: 2vw;
+    font-style: normal;
 }
-div {
-    float: left;
-    height: 400px;
-    padding: 2em;
+.box {
+    display: flex;
+    height: 300px;
 }
 #leftside {
-    max-width: 70%;
+    flex: 1 1 0;
+    padding: 2em;
 }
 #rightside {
-    max-width: 30%;
+    flex: 1 1 0;
     text-align: left;
+    padding: 1.4em;
+}
+footer {
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
 }
