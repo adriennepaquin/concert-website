@@ -81,7 +81,7 @@ ul.topnav li.right {float: right;}
     padding: 1.4em;
 }
 #buffer {
-    padding: 5vw;
+    padding: 3vw;
 }
 footer {
     text-align: center;
@@ -93,11 +93,11 @@ footer {
     width: 100%;
     background-color: white;
 }
-a:link {
+footer a:link {
     color: black;
     text-decoration: none;
 }
-a:hover {
+footer a:hover {
     color: slategray;
     text-decoration: none;
 }
@@ -116,4 +116,20 @@ a:hover {
     padding: 2em;
     font-family: 'Antonio', sans-serif;
     font-size: 2vw;
+}
+.bio a:link {
+    color: black;
+    text-decoration: none;
+}
+.bio a:visited {
+    color: black;
+}
+.bio a:hover {
+    color: white;
+    text-decoration: none;
+}
+iframe {
+    padding: 10px;
+    display: block;
+    text-align: center;
 }
