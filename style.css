@@ -61,11 +61,14 @@ ul.topnav li.right {float: right;}
     ul.topnav li {float: none;}
 }
 #homepage-para {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Satisfy', cursive;
     text-align: left;
+    color: white;
+    font-size: 2vw;
 }
 div {
     float: left;
+    height: 400px;
     padding: 2em;
 }
 #leftside {
