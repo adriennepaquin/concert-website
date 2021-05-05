@@ -2,6 +2,7 @@ body {
     background: lightslategray;
     max-width: 1100px;
     margin: auto;
+    border: 5px;
 }
 #header-photo {
     max-width: 100%;
@@ -12,13 +13,13 @@ header {
     position: relative;
 }
 h2 {
-    font-size: 3.5vw;
+    font-size: 2em;
     text-align: center;
     color: white;
     font-family: 'Satisfy', cursive;
 }
 h3 {
-    font-size: 2vw;
+    font-size: 1.7em;
     text-align: center;
     color:white;
     font-family: 'Satisfy', cursive;
@@ -67,12 +68,12 @@ ul.topnav li.right {float: right;}
     font-family: 'Antonio', sans-serif;
     text-align: left;
     color: black;
-    font-size: 2vw;
+    font-size: 1.19em;
     font-style: normal;
 }
 .indexbox {
     display: flex;
-    height: 400px;
+    height: 450px;
 }
 .leftside {
     flex: 1 1 0;
@@ -90,7 +91,6 @@ footer {
     text-align: center;
     font-family: 'Antonio', sans-serif;
     padding: 15px;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -99,6 +99,9 @@ footer {
 footer a:link {
     color: black;
     text-decoration: none;
+}
+footer a:visited {
+    color: black;
 }
 footer a:hover {
     color: slategray;
@@ -116,9 +119,10 @@ footer a:hover {
 }
 .bio {
     flex: 1 1 0;
-    padding: 2em;
+    padding: 5px;
     font-family: 'Antonio', sans-serif;
     font-size: 2vw;
+    padding-right: 5px;
 }
 .bio a:link {
     color: black;
@@ -144,3 +148,18 @@ footer a:hover {
 .videolinks h3 {
     color: black;
 }
+#contact {
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    padding: 5px;
+}
+#contact a:link {
+    color: black;
+    text-decoration: none;
+}
+#contact a:visited {
+    color: black;
+}
+#contact a:hover {
+    color: white;
+    text-decoration: none;
