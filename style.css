@@ -1,5 +1,7 @@
 body {
     background: lightslategray;
+    max-width: 1100px;
+    margin: auto;
 }
 #header-photo {
     max-width: 100%;
@@ -59,6 +61,7 @@ ul.topnav li.right {float: right;}
 @media screen and (max-width: 600px) {
     ul.topnav li.right, 
     ul.topnav li {float: none;}
+    a.indexbox {width: 200px;}
 }
 #homepage-para {
     font-family: 'Antonio', sans-serif;
@@ -67,15 +70,15 @@ ul.topnav li.right {float: right;}
     font-size: 2vw;
     font-style: normal;
 }
-#indexbox {
+.indexbox {
     display: flex;
-    height: 300px;
+    height: 400px;
 }
-#leftside {
+.leftside {
     flex: 1 1 0;
     padding: 2em;
 }
-#rightside {
+.rightside {
     flex: 1 1 0;
     text-align: left;
     padding: 1.4em;
@@ -128,8 +131,16 @@ footer a:hover {
     color: white;
     text-decoration: none;
 }
-iframe {
-    padding: 10px;
-    display: block;
+.videolinks a:link {
+    margin: auto;
+}
+.videolinks a:hover {
+    opacity: 50%;
+}
+.videolinks {
+    margin: auto;
     text-align: center;
+}
+.videolinks h3 {
+    color: black;
 }
