@@ -1,4 +1,4 @@
-//const h2 = document.createElement('h2')
+/*//const h2 = document.createElement('h2')
 //h2.textContent = "The content added by Javascript"
 
 //document.querySelector('body').appendChild(h2)
@@ -37,4 +37,11 @@ const submit = document.getElementById("submit")
 function formAlert() {
     alert ('Thanks for your input! We\'ll be in touch soon!')
 }
-submit.addEventListener('click', formAlert)
+submit.addEventListener('click', formAlert)*/
+
+const x = document.getElementById("funButton")
+x.addEventListener("click", myFunction)
+
+function myFunction() {
+    alert('Who\'s ready for a full Sondheim concert????')
+}

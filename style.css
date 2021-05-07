@@ -181,3 +181,6 @@ footer a:hover {
     background-color: black;
     color: white;
 }
+#funButton {
+    margin: 15px;
+}
